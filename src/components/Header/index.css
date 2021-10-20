@@ -1,0 +1,156 @@
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #272727;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+    border-bottom-style: none;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mobile-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-container {
+    display: none;
+  }
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+  margin: 20px;
+}
+.nav-menu-item-mobile-button {
+  margin: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: #f1f5f9;
+  border: none;
+  margin: 20px;
+}
+
+.nav-icon-image {
+  color: #f1f5f9;
+  width: 50px;
+  height: 50px;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icon-image-button {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f1f5f9;
+}
+
+.large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .large-container {
+    display: none;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.large-logo {
+  width: 110px;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .large-logo {
+    width: 165px;
+    padding-left: 50px;
+  }
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-weight: 400;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  width: 120px;
+  height: 35px;
+  font-size: 12px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-left: 200px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
